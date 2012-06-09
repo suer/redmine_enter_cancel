@@ -10,7 +10,7 @@ Install
 ------------------------------
 Type below commands:
 
-    $ cd $RAILS_ROOT/vender/plugins
+    $ cd $RAILS_ROOT/plugins
     $ git clone git://github.com/suer/redmine_enter_cancel.git
 
 Then, restart your redmine.
