@@ -1,5 +1,8 @@
 Redmine Enter Cancel plugin
 ====================================
+
+[![Code Climate](https://codeclimate.com/github/suer/redmine_enter_cancel.png)](https://codeclimate.com/github/suer/redmine_enter_cancel)
+
 A Redmine plugin ignores pressing enter key at ticket subject text field.
 
 Author
