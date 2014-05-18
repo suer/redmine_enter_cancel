@@ -5,11 +5,11 @@ class EnterCancelListener < Redmine::Hook::ViewListener
 <script type="text/javascript">
 $(document).ready(function() {
   $("#issue_subject").keypress(function(event) {
-    if ((event.which && event.which === 13) || (event.keyCode && event.keyCode === 13)) {
-      return false;
-    } else {
-      return true;
+    function isEnterPressed(e) {
+      return (e.which && e.which === 13) || (e.keyCode && e.keyCode === 13);
     }
+
+    return !isEnterPressed(event);
   });
 });
 </script>
